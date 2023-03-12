@@ -1,0 +1,45 @@
+.row{
+    padding: 60px;
+}
+
+div{
+
+    background-color:#98acc2;
+    text-align: center;
+}
+
+/*Estilo de la foto*/
+@media(min-width:576px){
+   #myphoto 
+   {
+     position:absolute;
+     width: 15%;
+     box-shadow: 3px 3px 3px grey;
+     left: 5%;
+     top: 930px;
+   }
+
+}
+
+@media(max-width:575px){
+    #myphoto 
+    {
+      position:absolute;
+      width: 15%;
+      box-shadow: 3px 3px 3px grey;
+      left: 45%;
+      top: 900px;
+    }
+ 
+ }
+
+
+/*etiqueta nombre */
+
+#nombre{
+    font-weight:bold;
+    margin-top: 10%;
+    margin-left: 2px;
+    
+}
+
