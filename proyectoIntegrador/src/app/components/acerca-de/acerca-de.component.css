@@ -13,22 +13,23 @@ div{
    #myphoto 
    {
      position:absolute;
-     width: 15%;
+     width: 10%;
      box-shadow: 3px 3px 3px grey;
-     left: 5%;
+     left:5%;
      top: 930px;
    }
 
 }
 
-@media(max-width:575px){
+@media(max-width:575px){ /*575*/
     #myphoto 
     {
       position:absolute;
       width: 15%;
       box-shadow: 3px 3px 3px grey;
-      left: 45%;
-      top: 900px;
+      left: 15%;
+      top: 1320px;
+      padding-right:3000;
     }
  
  }

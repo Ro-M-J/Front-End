@@ -22,3 +22,23 @@ div{
       top: 1690px;
 
 }
+
+@media(max-width:575px){
+  #mirgor
+  {
+    position:absolute;
+    width: 38%;
+    box-shadow: 3px 3px 3px grey;
+    left: 5%;
+    top: 1800px;
+  }
+  #freelancer
+  {
+    position:absolute;
+    width: 38%;
+    box-shadow: 3px 3px 3px grey;
+    left: 5%;
+    top: 2300px;
+  }
+
+}
