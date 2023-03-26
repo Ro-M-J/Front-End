@@ -6,7 +6,7 @@ import { TokenService } from "./token.service";
 
 @Injectable({
 
-     provideIn:'root'
+     providedIn:'root'
 })
 
 
